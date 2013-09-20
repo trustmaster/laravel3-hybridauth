@@ -7,7 +7,7 @@ Note: Laravel 4 users can install HybridAuth using Composer. This bundle was cre
 Install the bundle using Artisan CLI:
 
 ```
-php artisan bundle:install laravel3-hybridauth
+php artisan bundle:install hybridauth
 ```
 
 Add the following to `application/bundles.php`:
@@ -48,7 +48,7 @@ return
 	);
 ```
 
-For more information about this configuration file see [HybridAuth Configuration Guid](http://hybridauth.sourceforge.net/userguide/Configuration.html).
+For more information about this configuration file see [HybridAuth Configuration Guide](http://hybridauth.sourceforge.net/userguide/Configuration.html).
 
 Note that `base_url` points to a route providing a HybridAuth Endpoint. You need to provide such a route for authentication to work correctly.
 
